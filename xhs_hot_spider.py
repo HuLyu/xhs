@@ -3,6 +3,7 @@ from scrapy.crawler import CrawlerProcess
 
 
 class XHSHotTopicsSpider(scrapy.Spider):
+    # test for git
     name = "xhs_hot_topics"
     allowed_domains = ["xiaohongshu.com"]
     # Entry URL for the Explore/Hot page
